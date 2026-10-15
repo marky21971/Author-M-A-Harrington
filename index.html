@@ -1,13 +1,13 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Perfect Fit by M. A. Harrington</title>
+  <title>M. A. Harrington | Author & Story Library</title>
 
-  <meta name="description" content="Read and download Perfect Fit by M. A. Harrington for free.">
+  <meta name="description" content="Discover free stories by M. A. Harrington, including Perfect Fit and A Princess Wish. Explore stories of love, friendship, family, and adventure.">
 
   <style>
     * {
@@ -43,9 +43,16 @@
       margin: 10px 0 5px;
     }
 
-    h2 {
+    h2, h3 {
       color: #f2a65a;
+    }
+
+    h2 {
       margin-top: 40px;
+    }
+
+    h3 {
+      font-size: 1.6rem;
     }
 
     .author {
@@ -75,7 +82,7 @@
       opacity: 0.9;
     }
 
-    .download {
+    .download, .support {
       background: #f2a65a;
       color: #1a1a2e;
     }
@@ -84,22 +91,32 @@
       background: #ffffff;
       color: #1a1a2e;
     }
-    .about-button {
-      background: #f2a65a;
-      color: #1a1a2e;
-      padding: 18px 35px;
-      font-size: 1.15rem;
-    }
-    .support {
-      background: #f2a65a;
-      color: #1a1a2e;
-    }
 
     .section {
       max-width: 700px;
       margin: 40px auto;
       padding-top: 25px;
       border-top: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .story-card {
+      max-width: 680px;
+      margin: 30px auto;
+      padding: 25px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(242,166,90,0.35);
+      border-radius: 12px;
+    }
+
+    .story-card p {
+      max-width: 600px;
+      margin: 15px auto;
+    }
+
+    .story-tagline {
+      color: #f2a65a;
+      font-style: italic;
+      font-size: 1.1rem;
     }
 
     footer {
@@ -120,6 +137,10 @@
         max-width: 320px;
         margin: 12px auto;
       }
+
+      .story-card {
+        padding: 18px;
+      }
     }
   </style>
 </head>
@@ -128,88 +149,171 @@
 
   <main class="container">
 
-    <img
-      src="cover.jpg"
-      alt="Perfect Fit by M. A. Harrington"
-      class="cover"
-    >
-
-    <h1>Perfect Fit</h1>
+    <h1>M. A. Harrington</h1>
 
     <div class="author">
-      by M. A. Harrington
+      Author · Storyteller · Dreamer
     </div>
 
     <div class="intro">
+      <p>Welcome to my world of stories!</p>
 
       <p>
-        Welcome to <strong>Perfect Fit</strong>.
+        Here you'll discover tales of love, friendship, kindness,
+        imagination, and adventure. Choose a story, make yourself
+        comfortable, and enjoy reading.
       </p>
 
-      <p>
-        Enjoy the story completely free.
-      </p>
-
-      <a
-        href="perfect-fit.pdf"
-        class="button download"
-        target="_blank"
-        rel="noopener"
-      >
-           📖 Read / Download Perfect Fit — Free
-      </a>
-      <a
-        href="story-ideas.html"
-        class="button translate"
-      >
-        ✨ The Story Behind Perfect Fit
-      </a>
-      <a href="about-me.html" class="button">
+      <a href="about-me.html" class="button translate">
         👤 About Me
       </a>
+
       <a href="library.html" class="button download">
-  📚 My Story Library
-</a>
+        📚 My Story Library
+      </a>
     </div>
 
     <section class="section">
 
-      <h2>🌍 Read in Another Language</h2>
+      <h2>📖 Featured Stories</h2>
 
-      <p>
-        Want to read Perfect Fit in another language?
-        Choose the translation service you prefer.
-      </p>
+      <!-- PERFECT FIT -->
 
-      <a
-        href="https://translate.google.com/"
-        class="button translate"
-        target="_blank"
-        rel="noopener"
-      >
-        Google Translate
-      </a>
+      <div class="story-card">
 
-      <a
-        href="https://www.deepl.com/translator"
-        class="button translate"
-        target="_blank"
-        rel="noopener"
-      >
-        DeepL Translator
-      </a>
+        <img
+          src="cover.jpg"
+          alt="Perfect Fit by M. A. Harrington"
+          class="cover"
+        >
+
+        <h3>Perfect Fit</h3>
+
+        <p class="story-tagline">
+          Sometimes the connections that change our lives
+          are the ones we never expected.
+        </p>
+
+        <p>
+          Enjoy <em>Perfect Fit</em>, a heartfelt story exploring
+          love, understanding, empathy, and the connections
+          that bring people together.
+        </p>
+
+        <a
+          href="perfect-fit.pdf"
+          class="button download"
+          target="_blank"
+          rel="noopener"
+        >
+          📖 Read / Download Perfect Fit — Free
+        </a>
+
+        <a href="story-ideas.html" class="button translate">
+          ✨ The Story Behind Perfect Fit
+        </a>
+
+        <div>
+          <a
+            href="https://translate.google.com/"
+            class="button translate"
+            target="_blank"
+            rel="noopener"
+          >
+            Google Translate
+          </a>
+
+          <a
+            href="https://www.deepl.com/translator"
+            class="button translate"
+            target="_blank"
+            rel="noopener"
+          >
+            DeepL Translator
+          </a>
+        </div>
+
+      </div>
+
+      <!-- A PRINCESS WISH -->
+
+      <div class="story-card">
+
+        <img
+          src="A-Princess-Wish-book-cover.jpg"
+          alt="A Princess Wish by M. A. Harrington"
+          class="cover"
+          loading="lazy"
+        >
+
+        <h3>👑 A Princess Wish</h3>
+
+        <p class="story-tagline">
+          One shooting star. One heartfelt wish.
+          One Christmas that changes everything.
+        </p>
+
+        <p>
+          Once upon a time, in a beautiful kingdom in Nigeria,
+          Princess Rosalina had everything a princess could
+          wish for—except someone who would love her for who
+          she truly was.
+        </p>
+
+        <p>
+          Every Christmas Eve, Rosalina looks to the stars,
+          hoping her special wish will one day come true.
+          With her loyal best friend Wendy by her side, she
+          prepares a magical Christmas filled with sparkling
+          lights, delicious food, laughter, and festive surprises.
+        </p>
+
+        <p>
+          But when a handsome young prince enters her life,
+          Rosalina discovers that true love is about much more
+          than crowns and riches. It is about kindness, patience,
+          generosity, and finding a family where love can flourish.
+        </p>
+
+        <p>
+          Filled with Christmas magic, Nigerian traditions,
+          playful adventures, romance, and a joyful wedding
+          celebration, <em>A Princess Wish</em> is a heartwarming
+          fairy tale for children and families to enjoy together.
+        </p>
+
+        <p class="story-tagline">
+          Because sometimes, the wish that comes true is even
+          more wonderful than the one we imagined.
+        </p>
+
+        <a
+          href="A-Princess-Wish-preview.html"
+          class="button download"
+        >
+          ✨ Discover A Princess Wish
+        </a>
+
+        <a
+          href="A-Princess-Wish.pdf"
+          class="button translate"
+          target="_blank"
+          rel="noopener"
+        >
+          📚 Read the Complete Story
+        </a>
+
+      </div>
 
     </section>
-
 
     <section class="section">
 
       <h2>❤️ Support My Writing</h2>
 
       <p>
-        If you enjoy Perfect Fit and would like to help me create
-        more stories, you can support my writing with any amount
-        you choose.
+        If you enjoy my stories and would like to help me create
+        more, you can support my writing with any amount you choose.
       </p>
 
       <a
@@ -228,13 +332,11 @@
 
     </section>
 
-
     <footer>
-      © 2026 M. A. Harrington · Perfect Fit
+      © 2026 M. A. Harrington · All Stories
     </footer>
 
   </main>
 
 </body>
 </html>
-```
