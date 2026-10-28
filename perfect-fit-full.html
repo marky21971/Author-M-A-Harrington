@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Read Perfect Fit by M. A. Harrington.">
+  <title>Perfect Fit — Complete Story | M. A. Harrington</title>
+  <style>
+    :root {
+      --navy: #171b2e;
+      --navy-light: #242a42;
+      --gold: #d9a45e;
+      --cream: #f8f1e5;
+      --cream-muted: #e8dece;
+      --panel: #20253b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--navy);
+      color: var(--cream);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+    .site-header {
+      padding: 28px 18px;
+      text-align: center;
+      background: var(--navy-light);
+      border-bottom: 2px solid var(--gold);
+    }
+    .author {
+      margin: 0 0 6px;
+      color: var(--gold);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font: 700 .78rem/1.5 Arial, sans-serif;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.2;
+    }
+    .subtitle {
+      margin: 10px 0 0;
+      color: var(--cream-muted);
+      font-style: italic;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 18px;
+      border: 1px solid var(--gold);
+      border-radius: 5px;
+      text-decoration: none;
+      font: 700 .92rem/1.4 Arial, sans-serif;
+    }
+    .button-gold { background: var(--gold); color: var(--navy); }
+    .button-outline { background: transparent; color: var(--cream); }
+    .button:hover { background: var(--cream); color: var(--navy); }
+    main {
+      width: min(1100px, calc(100% - 28px));
+      margin: 28px auto 50px;
+    }
+    .reader-panel {
+      padding: clamp(18px, 3vw, 30px);
+      background: var(--panel);
+      border: 1px solid rgba(217, 164, 94, .35);
+      border-radius: 10px;
+    }
+    .reader-panel h2 {
+      margin-top: 0;
+      color: var(--gold);
+      text-align: center;
+    }
+    .reader-panel p { text-align: center; }
+    .pdf-reader {
+      display: block;
+      width: 100%;
+      height: min(78vh, 950px);
+      min-height: 560px;
+      margin-top: 22px;
+      background: #fff;
+      border: 1px solid rgba(217, 164, 94, .55);
+      border-radius: 5px;
+    }
+    footer {
+      padding: 24px 16px;
+      text-align: center;
+      color: var(--cream-muted);
+      font-size: .9rem;
+      border-top: 1px solid rgba(217, 164, 94, .35);
+    }
+    @media (max-width: 600px) {
+      .button { width: 100%; max-width: 320px; text-align: center; }
+      .pdf-reader { height: 72vh; min-height: 460px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <p class="author">M. A. Harrington · Author &amp; Story Library</p>
+    <h1>Perfect Fit</h1>
+    <p class="subtitle">The Complete Story</p>
+    <nav class="actions" aria-label="Story navigation">
+      <a class="button button-outline" href="index.html">Return to Home Page</a>
+      <a class="button button-outline" href="perfect-fit-preview.html">Read the Five-Chapter Preview</a>
+      <a class="button button-gold" href="perfect-fit.pdf" target="_blank" rel="noopener noreferrer">Open or Download the PDF</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="reader-panel">
+      <h2>Read Perfect Fit Here</h2>
+      <p>The complete book is displayed below. If your browser does not show the PDF, use the “Open or Download the PDF” link above.</p>
+      <iframe
+        class="pdf-reader"
+        src="perfect-fit.pdf"
+        title="Perfect Fit by M. A. Harrington — complete book"
+      ></iframe>
+      <div class="actions">
+        <a class="button button-outline" href="index.html">Return to Home Page</a>
+        <a class="button button-outline" href="perfect-fit-preview.html">Back to the Preview</a>
+        <a class="button button-gold" href="perfect-fit.pdf" target="_blank" rel="noopener noreferrer">Open or Download the PDF</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 M. A. Harrington · All rights reserved.</p>
+  </footer>
+</body>
+</html>
